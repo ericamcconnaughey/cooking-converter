@@ -1,10 +1,114 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Cooking Converter</title>
-  </head>
-  <body>
-    <h1>Cooking Converter</h1>
-    <script src="js/scripts.js"></script>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <title>Cooking Converter</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Cooking Converter</h1>
+    </div>
+
+    <div class="row">
+
+      <form id="galToLit" class="col-md-6">
+        <h2>Gallons to Liters</h2>
+        <div class="form-group">
+          <label for="gallons">Gallons:</label>
+          <input id="gallons" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn btn-info">Convert!</button>
+        <div id="galToLit-output" class="bg-info">
+
+        </div>
+      </form>
+
+
+      <form id="litToGal" class="col-md-6">
+        <h2>Liters to Gallons</h2>
+        <div class="form-group">
+          <label for="liters">Liters:</label>
+          <input id="liters" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn btn-info">Convert!</button>
+        <div id="litToGal-output" class="bg-info">
+
+        </div>
+      </form>
+    </div>
+
+
+    <div class="row">
+      <form id="cupToMill" class="col-md-6">
+        <h2>Cups to Milliliters</h2>
+        <div class="form-group">
+          <label for="cups">Cups:</label>
+          <input id="cups" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn btn-info">Convert!</button>
+        <div id="cupToMill-output" class="bg-info">
+
+        </div>
+      </form>
+
+
+      <form id="millToCups" class="col-md-6">
+        <h2>Milliliters to Cups</h2>
+        <div class="form-group">
+          <label for="milliliters1">Liters:</label>
+          <input id="milliliters1" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn btn-info">Convert!</button>
+        <div id="millToCups-output" class="bg-info">
+
+        </div>
+      </form>
+    </div>
+
+
+    <div class="row">
+      <form id="tspToMill" class="col-md-6">
+        <h2>Teaspoons to Milliliters</h2>
+        <div class="form-group">
+          <label for="teaspoons">Teaspoons:</label>
+          <input id="teaspoons" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn btn-info">Convert!</button>
+        <div id="tspToMill-output" class="bg-info">
+
+        </div>
+      </form>
+
+
+      <form id="millToTsps" class="col-md-6">
+        <h2>Milliliters to Teaspoons</h2>
+        <div class="form-group">
+          <label for="milliliters2">Liters:</label>
+          <input id="milliliters2" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn btn-info">Convert!</button>
+        <div id="millToTsps-output" class="bg-info">
+
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
 </html>
